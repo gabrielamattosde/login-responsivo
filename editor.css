@@ -46,26 +46,7 @@ main h2::before{
     flex-direction: column;
 }
 form .input-field:first-child{
-    margin-bottom: 1.5rem;
-}
-
-
-.input-field .underline::before{
-    content:'';
-    position: absolute;
-    height: 1px;
-    bottom: -5;
-    left: 0;
-    background: ;
-}
-.input-field .underline::after{
-    content: '';
-    position: absolute;
-    height: 1px;
-    bottom: -5px;
-    left: 0;
-    background: linear-gradient(#8e2de2 , #4a00e0);
-    transform:scaleX(0);
+    margin-bottom: 1.5rem; 
 }
 
 .input-field .underline{
